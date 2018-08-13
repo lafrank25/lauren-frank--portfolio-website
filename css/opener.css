@@ -1,11 +1,28 @@
+h1 {
+   display: block;
+   margin-right: auto;
+   width: 40%;
+   text-align: left;
+   font-size: 2rem;
+   padding-top: 10px;
+   padding-left: 50px;
+   padding-bottom: 55px;
+   font-family: 'Karla', sans-serif;
+}
 
+.card {
+   text-align: center;
+}
 
-
-
+.card img {
+   content: center;
+   margin: 15px;
+   width: 45%;
+}
 
 nav ul {
    padding: 14px 0 0;
-   background-color: white;
+   background-color: #FFE8E3;
    list-style: none;
    text-align: center;
    font-size: 1.5rem;
@@ -47,18 +64,4 @@ footer {
    position: fixed;
    bottom: 0;
    width: 100vw;
-}
-
-@media (max-width: 800px){
-   footer {
-      /* height: 30vh; */
-      bottom:0px;
-   }
-
-   nav ul {
-      display: inline-block;
-      text-align: center;
-      background-color: #fff;
-      font-size: 1.2rem;
-   }
 }
