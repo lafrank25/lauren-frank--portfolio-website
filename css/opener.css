@@ -12,7 +12,7 @@ h1 {
 p {
    text-align: left;
    padding: 50px;
-   width: 30%;
+   width: 40%;
    line-height: 1.3;
    font-family: 'Lato', sans-serif;
 }
@@ -22,14 +22,17 @@ p {
 }
 
 .card img {
-   content: center;
    margin: 15px;
-   width: 60%;
+   width: 40%;
+}
+
+.last-item {
+   padding-bottom: 80px;
 }
 
 #container {
    margin: auto;
-   width: 80%;
+   width: 90%;
    padding-bottom: 70px;
 }
 
