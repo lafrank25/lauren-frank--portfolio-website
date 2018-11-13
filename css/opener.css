@@ -36,7 +36,7 @@ img {
 }
 
 img:hover {
-    opacity: .8;
+    opacity: .85;
     filter: alpha(opacity=100);
 }
 
